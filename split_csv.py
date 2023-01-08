@@ -20,7 +20,6 @@ with open(sys.argv[1], encoding='latin-1') as input_file:
     for row in reader:
 
         # Skip first (title) row and any invalid rows.
-        print(len(row))
         if first or len(row) < 2:
             first = False
             continue

@@ -50,7 +50,7 @@ print(confusion_matrix(y_test, y_pred), '\n')
 print('CLASSIFICATION REPORT ==========')
 print(classification_report(y_test, y_pred), '\n')
 
-# What's our overall accuracy.
+# What's our overall accuracy?
 print('OVERALL ACCURACY ===============')
 print(accuracy_score(y_test, y_pred), '\n')
 
